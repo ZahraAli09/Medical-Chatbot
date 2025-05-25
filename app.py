@@ -1,5 +1,7 @@
 import streamlit as st
 import os
+os.environ["STREAMLIT_WATCHED_MODULES"] = "[]"
+
 import json
 from datetime import datetime
 
